@@ -1,0 +1,109 @@
+@import url("https://fonts.geogleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(58, 5, 48);
+    padding-left: 30%;
+    padding-top: 1%;
+}
+
+.price-heading{
+    margin-left: 1em;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    left: 40%;
+    justify-content: center;
+    position:relative;
+}
+
+.pricing-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem 2rem 10rem;
+    background-color: white;
+    margin: 0 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s all linear;
+    margin-bottom: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding:1.5vw 2vw;
+    width: 60%;
+}
+
+.pricing-item:hover{
+    transform: scale(1.01);
+    box-shadow:0 1rem 1rem 0rem #810b0b;
+}
+
+.pricing-item li{
+    list-style: none;
+}
+
+.pricing{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.pricing-kit{
+    font-size: 1.3rem;
+    background-color: skyblue;
+    padding: .6rem 1rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.pricing-item:hover .pricing-kit{
+    box-shadow: 0 0 0 20rem   rgb(58, 5, 48);
+}
+
+.pricing-item:hover .order-button{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+.pricing-item:hover .pricing{
+    color: black;
+    transition: .4s linear;
+}
+
+.offers li{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.order-btn{
+    border: none;
+    border: 2px solid skyblue;
+    background-color: transparent;
+    color: skyblue;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.order-btn:hover{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
